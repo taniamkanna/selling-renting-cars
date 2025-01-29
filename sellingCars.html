@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sellStyle.css">
+    <link rel="stylesheet" href="CommonStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="images/x-icone" href="images/logo.png">
+    <title>DRIVEZO</title>
+</head>
+
+<body >
+
+    <!-- Navigation -->
+
+    <nav class="largeScreen">
+        <div class="logo"><img class="logo" src="images/logo.png" >DRIVEZO</div>
+        <div  class="nav-links">
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="sellingCars.html">Buy</a></li>
+                <li><a href="rentingCars.html">Rent</a></li>
+                <li><a href="contactUs.html">Contact</a></li>
+            </ul>
+        </div>
+        <img class="menu_icon" id="menu_icon" src="images/menu-bar.png" onclick="openMenuBar()">
+    </nav>
+        <!-- Menu Bar -->
+    <nav class="menu_bar" id="menu_bar" >
+        
+
+        
+        <ul>
+    
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="sellingCars.html">Buy</a></li>
+            <li><a href="rentingCars.html">Rent</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+
+        </ul>
+        
+        <!-- -------------- -->
+    </nav>
+
+    <!-- selling Cars -->
+    <div id="selling_cars" class="selling_cars" >
+        <h1>Cars For Sales</h1> 
+        
+        <div class="cars_list" id="cars_list"></div>
+        <script src="script.js"></script>
+    </div>   
+    <!-- ---------- -->
+
+    <!-- form -->
+    
+
+    <div class="preview_form" id="preview_form">
+
+        <div class="left-header" id="left-header">
+            <img class="car_image" id="car_image" src="">
+
+            <div class="car_info" >
+            
+                
+                <div class="more-info">
+                    <div class="description">
+                        <img class="icons" id="color_icon" src="" >
+                        <div id="color"></div>
+                    </div>
+
+                    <div class="description">
+                        <img class="icons" src="images/icons-speed.png" >
+                        <div id="speed"></div>
+                    </div>
+                    
+                    <div class="description">
+                        <img class="icons"  id="bodyStyle-icon"src="images/icons-bodystyle.png">
+                        <div id="bodyStyle"></div>
+                    </div>
+
+                    <div class="description">
+                        <img class="icons" id="fuel_type_icon" src="" >
+                        <div id="fuel_type"></div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="car_name" id="car_name"></div>
+                    <div id="year"></div>
+                    <div id="price"></div>
+                </div>
+                
+            </div> 
+
+            
+        </div>
+        
+
+        
+        <form class="right-header">
+            <div  class="input"><img class="icon" src="images/icon-name.png"><input type="text" name="FirstName" class="FirstName" placeholder="Full Name..."  required/></div>
+        
+            <div class="input"><img class="icon" src="images/icon-email.png"><input  type="email" name="email" class="email" placeholder="Email..." required/></div>
+            <div class="input"><img class="icon" src="images/icon-phone-number.png"><input  type="text" name="mobile" class="mobile" placeholder="Mobile..." required/></div>
+            <button type="submit" class="submit">Buy</button>
+        </form>
+        
+        <img  class=" icon" id="circled_exit" src="images/icon-circled-exit.png" onclick="closeSellForm()">
+
+    </div>
+    <!-- spinner -->
+    <div style="align-items: center; justify-content: center;">
+    <div id="spinner" class="spinner"></div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-contain">
+            
+            <div class=" columns column1 ">
+                <h2 style="display: flex; gap: 10px;"><img class="logo" src="images/logo.png">DRIVEZO</h2>
+                <p>
+                    Here our website where you can find the best cars for your daily life 
+                    and for your business.We offer a huge variety of cars for selling and renting.
+                </p>
+            </div>
+
+            <div class=" columns column2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sellingCars.html">Buy</a></li>
+                    <li><a href="rentingCars.html">Rent</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class=" columns column3">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="contactUs.html">Help</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Term & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="columns column4">
+                <h2 >Meet our trust owners</h2>
+                <div class="owners">
+                    <div>
+                    <p> Mohammad Mousa:</p>
+                    <ul>
+                        <li class="social_media"><img class="social_media" src="images/whatsapp-icon.png"><a>+96176059030</a></li>
+                        <li class="social_media"><img class="social_media" src="images/instagram-icon.png"><a href="https://www.instagram.com/mhmd._.mousa/profilecard/?igsh=MmM1Y29kMmt2aDBr">Instagram</a></li>
+                        <li class="social_media"><img class="social_media" src="images/facebook-icon.png"><a href="https://www.facebook.com/share/hHKYZpw2wAydkqv8/?mibextid=wwXIfr">Facebook</a></li>
+                    </ul>
+                    </div>
+                    <div>
+                        <p> Tania Mkanna:</p>
+                        <ul>
+                            <li class="social_media"><img class="social_media" src="images/whatsapp-icon.png"><a>+96181034376</a></li>
+                            <li class="social_media"><img class="social_media" src="images/instagram-icon.png"><a href="https://www.instagram.com/tania_mkanna?igsh=MTBrMDM3NHl2NG9xZQ==">Instagram</a></li>
+                            <li class="social_media"><img class="social_media" src="images/facebook-icon.png"><a href="https://www.facebook.com/share/hHKYZpw2wAydkqv8/?mibextid=wwXIfr">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <!-- ---------- -->
+
+</body>
+
+</html>
+

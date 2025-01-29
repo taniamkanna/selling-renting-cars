@@ -1,0 +1,133 @@
+
+/************ Content **************/
+
+.header-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 150px;
+    gap: 40px;
+    
+}
+
+.left-header{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 600px;
+    
+}
+.left-header h1{
+    font-size: 48px;
+    font-weight: bold;
+    animation-name:slideX;
+    animation-timing-function: linear;
+    animation-duration: 1s; 
+    
+}
+.left-header p{
+    font-size: 20px;
+    animation-name:slideX;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+}
+.btn{
+    padding: 12px 28px;
+    background-color: #1743e3;
+    border: 2px solid #1743e3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0,0.2);
+    color: white;
+    letter-spacing: .4px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .4s ease;
+    animation-name: sildeX;
+    animation-timing-function: linear;
+    animation-duration: 1.7s;
+
+}
+.btn:hover{
+    background: transparent;
+    color: #1743e3;
+
+}
+
+.right-header{
+    align-items: center;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.right-header img{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    animation-name: faded;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+
+/* *********************** */
+
+
+
+
+
+
+/* ****** */
+
+
+/* home Animations */
+@keyframes faded {
+    0% {
+        opacity: 0;
+        transform: translateZ(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideX{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px)  ;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes footerScaleY{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@media screen and (max-width:670px) {
+    
+    .right-header img{
+        width: 500px;
+    }
+}
+
+/* *************** */
+
+

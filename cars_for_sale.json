@@ -1,0 +1,124 @@
+[
+    {
+        "id":1,
+        "name":"Toyota Corolla",
+        "price":"$25,000",
+        "fuel_type": "Petrol",
+        "speed":" 180-200 km/h",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "body_style": "Sedan",
+        "color_icon":"images/white-circle.png",
+        "color": "white",
+        "year": 2024,
+        "image":"images/carsForSales/2024_toyota_corolla_front.png"
+        
+        
+    },
+    {
+        "id":2,
+        "name":"Toyota Yaris",
+        "price":"$15,000",
+        "fuel_type": "Petrol",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "speed":" 175 km/h",
+        "body_style": "Sedan",
+        "color_icon":"images/gray-circle.png",
+        "color": "Silver",
+        "year": 2020,
+        "image":"images/carsForSales/2020_toyota_yaris_front.png"
+    },
+    {
+        "id":3,
+        "name":"Toyota Mirai",
+        "price":"$50,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "H2",
+        "speed":" 179 km/h",
+        "body_style": "Sedan",
+        "color_icon":"images/blue-circle.png",
+        "color": "Hydro Blue",
+        "year": 2024,
+        "image" :"images/carsForSales/2024_toyota_mirai_front.png" 
+    },
+
+    {
+        "id":4,
+        "name":"BMW X5",
+        "price":" $60,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 250 km/h",
+        "body_style": "SUV ",
+        "color": "Black Sapphire",
+        "color_icon":"images/black-circle.png",
+        "year": 2021,
+        "image" :"images/carsForSales/2021_bmw_x5_front.png" 
+    },
+    {
+        "id":5,
+        "name":"BMW 5 Series ",
+        "price":" $55,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 250 km/h",
+        "body_style": "Sedan ",
+        "color_icon":"images/blue-circle.png",
+        "color": "PhytonicBlue",
+        "year": 2021,
+        "image" :"images/carsForSales/2021_bmw_5-series_sedan_front.png" 
+    },
+    {
+        "id":6,
+        "name":"BMW M4 CSL",
+        "price":"$140,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 307 km/h",
+        "body_style": "Coupe ",
+        "color_icon":"images//white-circle.png",
+        "color": "AlpineWhite",
+        "year": 2023 ,
+        "image" :"images/carsForSales/2023_bmw_front.png" 
+    },
+    {
+        "id":7,
+        "name":"Lexus ES 350",
+        "price":"$42,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 211 km/h",
+        "body_style": "Sedan",
+        "color": "Caviar",
+        "color_icon":"images/black-circle.png",
+        "year": 2023,
+        "image" :"images/carsForSales/2023_lexus_es-350_sedan_front.png" 
+    },
+    {
+        "id":8,
+        "name":"Hyundai Tucson",
+        "price":"$25,000",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 193 km/h",
+        "body_style": "SUV ",
+        "color_icon":"images/red-circle.png",
+        "color": "Red",
+        "year": 2022 ,
+        "image" :"images/carsForSales/2022_hyundai_tucson_front.png" 
+    },
+    {
+        "id":9,
+        "name":"Volvo XC60",
+        "price":"$45,000 ",
+        "fuel_type_icon":"images/icon-petrol.png",
+        "fuel_type": "Petrol ",
+        "speed":" 182 km/h",
+        "body_style": "SUV ",
+        "color": "Onyx Black",
+        "color_icon":"images/black-circle.png",
+        "year": 2024 ,
+        "image" :"images/carsForSales/2024_volvo_xc60_front.png" 
+    }
+
+
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "id":1,
+        "name":" KIA Sportage",
+        "price":"35",
+        "speed":"181 km/h",
+        "fuel_type": "Petrol",
+        "body_style": "SUV ",
+        "color": "Olive",
+        "color_icon":"images/olive-circle.png",
+        "year": 2020,
+        "image":"images/carsForRent/KIA_Sportage.png"
+
+    },
+    {
+        "id":2,
+        "name":"Mercedes G Class",
+        "price":150,
+        "speed":"210 km/h",
+        "body_style": "SUV ",
+        "color": "black",
+        "color_icon":"images/black-circle.png",
+        "year": 2021 ,
+        "image":"images/carsForRent/Mercedes_Benz _G Class_royalty.png"
+
+    },
+    {
+        "id":3,
+        "name":"Toyota Corolla",
+        "price":40,
+        "speed":"180 km/h",
+        "body_style": "LE sedan",
+        "color": "red",
+        "color_icon":"images/red-circle.png",
+        "year": 2020,                
+        "image":"images/carsForRent/toyota_corolla.png"
+
+    },
+    {
+        "id":4,
+        "name":"Ford F-150",
+        "price":150,
+        "speed":"177-185 km/h",
+        "body_style": "SuperCrew",
+        "color": "red",
+        "color_icon":"images/red-circle.png",
+        "year": 2020,
+        "image":"images/carsForRent/ford_F_150.png"
+
+    },
+    {
+        "id":5,
+        "name":"Mercedes",
+        "price":90,
+        "speed":"290 km/h",
+        "body_style": "Convertible",
+        "color": "Yellow",
+        "color_icon":"images/yellow-circle.png",
+        "year": 2018,
+        "image":"images/carsForRent/Mercedes.png"
+
+    },
+    {
+        "id":6,
+        "name":" Nissan Rogue Sport",
+        "price":110,
+        "speed":"185 km/h",
+        "body_style": "Crossover",
+        "color": "White",
+        "color_icon":"images/white-circle.png",
+        "year": 2020,
+        "image":"images/carsForRent/rogue-sport-sv.png"
+
+    }
+
+]

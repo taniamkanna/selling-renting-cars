@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+
+/* *********************************** */
+
+
+/* contact us */
+
+main{
+    margin-top: 100px;
+    animation-name: faded;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+main .content{
+    text-align: center;
+}
+main .content h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #1743e3;
+    font-family: "poppins", sans-serif;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 69px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin: 25px 90px 0px;
+}
+
+.left-header{
+    padding: 35px;
+}
+
+.box{
+    display: flex;
+}
+.box h2{
+    margin-bottom: -10px;
+    color: #1743e3;
+}
+.icon{
+    padding: 4px;
+}
+/* Right Content */
+.right-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1743e3;
+    border-radius:20px ;
+}
+.right-header form{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap:wrap ;
+}
+
+.right-header form input{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    color: white;
+}
+.right-header form input::placeholder{
+    color: #ffffff;
+}
+.right-header form .mobile,
+.right-header form .email{
+    margin-left: 20px;
+}
+.right-header form .LastName,
+.right-header form .FirstName{
+    margin-left: 20px;
+}
+.right-header form h4{
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 600px;
+    margin-bottom: 7px;
+}
+.right-header form textarea{
+    font-size: 15px;
+    width: 625px;
+    height: 80px;
+    border: none;
+    background: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    color: white;
+}
+.right-header form textarea::placeholder{
+    color: #ffffff;
+}
+.right-header form button{
+    width: 300px;
+    height: 40px;
+    background-color:rgb(24, 24, 24) ;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .4s ease;
+}   
+
+@media screen and (max-width:1115px) {
+    
+    /* .right-header form{
+        flex-direction: column;
+    } */
+    
+    .contact-container{
+        gap: 30px;
+        margin-left: 0;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+}
+
+    @media screen and (max-width:780px) {
+        
+    
+        .contact-container{
+            gap: 10px;
+            
+            
+        }
+        
+        .right-header form input{
+            width: 200px;
+        }
+        
+
+    }
+

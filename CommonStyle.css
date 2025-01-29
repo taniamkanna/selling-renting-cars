@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+/* *************Navigation*********** */
+.logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #1743e3;
+    margin-left: 10px;
+    animation-name: faded;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+.largeScreen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    color: black; 
+    width: 100%;
+    padding: 6px 0px; 
+    box-shadow: 5px 5px 10px rgba(194, 184, 255, 0.336);
+    background-color: #f8f8f8;
+}
+
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+    padding:14px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    transition: .4s ease;
+    font-family: "poppins", sans-serif;
+    animation-name: faded;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.nav-links ul li a:hover{
+    color:#1743e3 ;
+}
+
+
+.nav-links ul li .active{
+    color: #1743e3;
+}
+/* **** */
+
+/* Menu Bar */
+
+.menu_icon{
+    display: none;
+    width: 50px;
+    height: 45px;
+    margin-right: 10px;
+    transition: .4s ease;
+}
+.menu_bar{
+    background-color: #1743e3;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    animation-name: faded;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+
+
+.menu_bar ul{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    gap: 10px;
+    
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s ease;
+    font-family: "poppins", sans-serif;
+    
+}
+
+.menu_bar ul li a:hover{
+    font-size: 15px;
+}
+
+
+
+/* ************* */
+/* *************** Footer ******************** */
+footer{
+    background-color: #1743e3;
+    color: white;
+    padding: 50px 0px;
+    margin-top: 80px;
+    animation-name: footerScaleY;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-timeline: scroll();
+    animation-timing-function: ease;
+}
+.footer-contain{
+    
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 150px;
+    animation-name: footerScaleY;
+    animation-timeline: scroll();
+    animation-duration: 1s;
+    animation-timing-function: linear;     
+    
+}
+
+@media (max-width:1073px) {
+    .footer-contain{
+        gap: 5px;
+        
+    }
+}
+.columns{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+
+
+.column4{
+    display: flex;   
+    
+}
+
+.owners{
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    flex-direction: row;
+    padding-right: 67px;
+}
+.social_media{
+    display: flex;
+    gap: 4px;
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    
+}
+
+
+.footer-contain ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation-name: footerScaleY;
+    animation-timeline: scroll();
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
+    
+    
+}
+
+.footer-contain ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: .4s ease;
+    font-family: "poppins", sans-serif;
+    display: flex; 
+    gap: 15px;
+}
+.footer-contain ul li a:hover{
+    font-size: 13px;
+}
+/* media screen  */
+@media screen and (max-width:1069px){
+    .footer-contain{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width:500px){
+    .footer-contain{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    
+    .nav-links{
+        display: none;
+    }
+    .menu_icon{
+        display: flex;
+    }
+    
+}
+@media screen and (min-width:701px) {
+    .nav-links {
+        display: flex;
+    }
+    .menu_icon, .menu_bar {
+        display: none;
+    }
+}
+/* ************* */
+
+
+/* animations */
+@keyframes faded {
+    0% {
+        opacity: 0;
+        transform: translateZ(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes footerScaleY{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
